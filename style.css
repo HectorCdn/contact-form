@@ -83,7 +83,19 @@ input:checked {
     content: ✔;
 }
 
+@media screen and (min-width : 768px) {
+    main {
+        width: 70%;
+    }
 
+    section-1 {
+        flex-direction: row;
+    }
+
+    .name {
+        width: 40%;
+    }
+}
 
 
 
