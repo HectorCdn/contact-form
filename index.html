@@ -10,16 +10,44 @@
 		<main>
 			<h1>Contact Us</h1>
 			<form action="">
-                <div>
-                    <label for=""></label>
-                </div>
-
-                <div>
-
-                </div>
-
-                <button>Submit</button>
-            </form>
+				<section class="section-1">
+					<div class="champ">
+						<label for="name">First Name <span>*</span></label>
+						<input class="input-large" type="text" required />
+					</div>
+					<div class="champ margin-top">
+						<label for="name">Last Name <span>*</span></label>
+						<input class="input-large" type="text" required />
+					</div>
+				</section>
+				<div class="champ margin-top">
+					<label for="mail">Email Address <span>*</span></label>
+					<input class="input-large" type="text" required />
+				</div>
+				<section class="section-2 champ">
+					<fieldset>
+						<div>
+							<label for="" name="Query-type">General Enquiry</label>
+							<input type="radio" />
+						</div>
+						<div>
+							<label for="" name="Query-type">Support Request</label>
+							<input type="radio"/>
+						</div>
+					</fieldset>
+				</section>
+				<div class="champ margin-top">
+					<label for="text">Message <span>*</span></label>
+					<input class="input-mega-large" type="text" required />
+				</div>
+				<div class="champ margin-top consent">
+					<label for="text"
+						>I consent to being contacted by the team <span>*</span></label
+					>
+					<input type="checkbox" required />
+				</div>
+				<button class="submit">Submit</button>
+			</form>
 		</main>
 	</body>
 </html>
